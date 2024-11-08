@@ -8,18 +8,18 @@ app.use(express.json());
 
 // Datos de ejemplo
 const categorias = [
-    { id: 1, nombre: 'Experiencias'},
-    { id: 2, nombre: 'Libros' },
-    { id: 3, nombre: 'Belleza y cuidado personal' },
-    { id: 4, nombre: 'Accesorios de moda' },
-    { id: 5, nombre: 'Ropa' },
-    { id: 6, nombre: 'Electrónicos ' },
-    { id: 7, nombre: 'Juguetes y juegos' },
-    { id: 8, nombre: 'Calzado' },
-    { id: 9, nombre: 'Hogar' },
-    { id: 10, nombre: 'Deportivos' },
-    { id: 11, nombre: 'Electrodomésticos' },
-    { id: 12, nombre: 'Automóviles y accesorios' },
+    { id: 1, nombre: 'Experiencias', img: 'https://acortar.link/kPKrxj'},
+    { id: 2, nombre: 'Libros', img: 'https://acortar.link/LRH45v'},
+    { id: 3, nombre: 'Belleza y cuidado personal', img: 'https://acortar.link/ADIMFi' },
+    { id: 4, nombre: 'Accesorios de moda', img: 'https://acortar.link/LC4Ipx' },
+    { id: 5, nombre: 'Ropa', img: 'https://acortar.link/DzfWar' },
+    { id: 6, nombre: 'Electrónicos ', img: 'https://acortar.link/4FMkV1' },
+    { id: 7, nombre: 'Juguetes y juegos',img: 'https://acortar.link/EqOI5F' },
+    { id: 8, nombre: 'Calzado', img: 'https://acortar.link/ncPWOv' },
+    { id: 9, nombre: 'Hogar', img: 'https://acortar.link/jZvJCX' },
+    { id: 10, nombre: 'Deportivos', img: 'https://acortar.link/wwFTmj' },
+    { id: 11, nombre: 'Electrodomésticos', img: 'https://acortar.link/3UKQhK' },
+    { id: 12, nombre: 'Automóviles y accesorios', img: 'https://acortar.link/gBy88A' },
 ];
 
 const productos = [
@@ -266,10 +266,10 @@ const productos = [
     { id: 220, categoriaId: 11, nombre: 'Otros', img:'https://img.freepik.com/foto-gratis/ilustracion-3d-caja-regalo-negra-cerrada_107791-18203.jpg' },
 
     // Categoría 12: Automóviles y accesorios
-    { id: 221, categoriaId: 12, nombre: 'Cámara de reversa' },
+    { id: 221, categoriaId: 12, nombre: 'Automovil' },
     { id: 222, categoriaId: 12, nombre: 'Parasol de coche' },
     { id: 223, categoriaId: 12, nombre: 'Gato hidráulico' },
-    { id: 224, categoriaId: 12, nombre: 'Cubreasientos de cuero' },
+    { id: 224, categoriaId: 12, nombre: 'Cámara de reversa' },
     { id: 225, categoriaId: 12, nombre: 'Cargador USB para auto' },
     { id: 226, categoriaId: 12, nombre: 'Radio de coche' },
     { id: 227, categoriaId: 12, nombre: 'Tapetes para auto' },
